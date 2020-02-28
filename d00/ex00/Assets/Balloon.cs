@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Balloon : MonoBehaviour
-{
-    // Start is called before the first frame update
+public class balloon : MonoBehaviour
+{   
+     // Start is called before the first frame update
     void Start()
     {
         
@@ -28,7 +28,7 @@ public class Balloon : MonoBehaviour
         }
         if (Mathf.RoundToInt(10.0f * Time.realtimeSinceStartup % 5) == 0)
             transform.localScale = new Vector3 (transform.localScale[0] - 0.05f, transform.localScale[1] - 0.05f, transform.localScale[2] - 0.05f);
-        if (transform.localScale[0] > 5.0f || transform.localScale[0] <= 0.0f)
+        if (transform.localScale[0] > 3.0f || transform.localScale[0] <= 0.0f)
         {
             Destroy(gameObject);
             print("Balloon life time: " + Mathf.RoundToInt(Time.realtimeSinceStartup) + "s");

@@ -1,5 +1,5 @@
 
-=== Wed Feb 26 13:46:41 2020
+=== Fri Feb 28 15:43:34 2020
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -41,13 +41,5 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.test-framework@1.1.11
   com.unity.textmeshpro@2.0.1
-  com.unity.timeline@1.2.10
+  com.unity.timeline@1.2.12
   com.unity.ugui@1.0.0
-
-=== Thu Feb 27 11:39:14 2020
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.timeline from version 1.2.10 to 1.2.12
