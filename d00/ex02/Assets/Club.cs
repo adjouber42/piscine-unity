@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    private float jauge = 0;
+    private int score = -15;
+    private bool hold;
     // Start is called before the first frame update
     void Start()
     {
         
     }
-    private float jauge = 0;
-    private int score = -15;
-    private bool hold;
     // Update is called once per frame
     void Update()
     {
