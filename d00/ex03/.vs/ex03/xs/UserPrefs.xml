@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C7842854-5B68-D4D4-22C6-F92692E60E7E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/pipe.cs">
+    <Files>
+      <File FileName="Assets/pipe.cs" Line="8" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ex03" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="pipe.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6521d114-c4ee-4da0-88f9-d3ad6f5f2b57" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

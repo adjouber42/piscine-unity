@@ -7,7 +7,7 @@ public class bird : MonoBehaviour
     private bool play = true;
     private int i = 0;
     private float   time = 0;
-    public int  score = 0;
+    public int  score = -5;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,15 +34,13 @@ public class bird : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "Not Ok")
+        if (coll.gameObject.tag == "Not Ok" && play == true)
         {
             Debug.Log ("Score: " + score);
             Debug.Log ("Time: " + Mathf.RoundToInt(time) + "s");
             play = false;
         }
-        else if (coll.gameObject.tag == "Ok")
+        else if (coll.gameObject.tag == "Ok" && play == true)
             score += 5;
-        else
-            Debug.Log("?");
     }
 }
