@@ -14,14 +14,14 @@ public class openDoor : MonoBehaviour
     void OnTriggerEnter2D(Collider2D coll)
     {
         transform.position = new Vector3(transform.position.x, transform.position.y - 0.03f, transform.position.z);
-        if (transform.tag == "white" || transform.tag == coll.gameObject.name)
+        if (transform.tag == "white" || transform.tag == coll.gameObject.tag)
             door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y + 0.63f, door.transform.position.z);
     }
 
     void OnTriggerExit2D(Collider2D coll)
     {
         transform.position = new Vector3(transform.position.x, transform.position.y + 0.03f, transform.position.z);
-        if (transform.tag == "white" || transform.tag == coll.gameObject.name)
+        if (transform.tag == "white" || transform.tag == coll.gameObject.tag)
             door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y - 0.63f, door.transform.position.z);
     }
 }

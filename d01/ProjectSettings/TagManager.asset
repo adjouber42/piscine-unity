@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - red_object
+  - blue_object
+  - yellow_object
+  - red
+  - environment
+  - blue
+  - player
+  - yellow
+  - white
   layers:
   - Default
   - TransparentFX
@@ -13,12 +22,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - red_platform
+  - blue_platform
+  - yellow_platform
+  - red
+  - blue
+  - yellow
   - 
   - 
   - 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2131507401063923815}
   m_Layer: 0
   m_Name: switchred
-  m_TagString: red
+  m_TagString: red_object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

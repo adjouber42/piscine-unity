@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 4070122736184860431}
   m_Layer: 0
   m_Name: switchyellow
-  m_TagString: yellow
+  m_TagString: yellow_object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
