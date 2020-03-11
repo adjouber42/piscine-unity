@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonPlatform : MonoBehaviour
 {
     private GameObject plat;
-    private int i = 0;
+    public int i;
 
     void Start()
     {

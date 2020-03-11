@@ -22,7 +22,9 @@ public class WinCondition : MonoBehaviour
     {
         if (red.GetComponent<playerScript_ex01>().win && blue.GetComponent<playerScript_ex01>().win && yellow.GetComponent<playerScript_ex01>().win)
         {
-            SceneManager.LoadScene(currentLevel.buildIndex + 1);
+            print("WIN");
+            if (currentLevel.buildIndex != 5)
+                SceneManager.LoadScene(currentLevel.buildIndex + 1);
         }
     }
 }
